@@ -1,8 +1,19 @@
-# Module 3 - Project 2 (ML) - Revenue | No Revenue
+# Prediction of users purchase intention - Ironhack Project
 
+## Objective
+This project was developed in the Data Analytics bootcamp of Ironhack. 
+The goal was to build an ML model to predict if a website user would or would not make a purchase, 
+based on their website activity. A successful model would have mean score of more than 0.90 in cross validation. 
 
-## Question
-What if that possible to predict revenue on an online shop?
+## Results
+The model achieved an average score of 0.98 in cross validation. 
+
+To achieve this outcome, we tested the following techniques:
+- Imputers for missing values: SimpleImputer, KNNImputer, IterativeImputer.
+- Outlier extraction: LocalOutlierFactor, IsolationForest.
+- Oversampling: SMOTE, BorderlineSMOTE, SMOTETomek, SMOTEENN.
+- Classification models: LogisticRegression, SVC, RandomForestClassifier.
+
 
 ## Context
 
@@ -15,24 +26,24 @@ profile, or period.
 
 ### Columns:
 
-Administrative: Administrative Value
-Administrative_Duration: Duration in Administrative Page
-Informational: Informational Value
-Informational_Duration: Duration in Informational Page
-ProductRelated: Product Related Value
-ProductRelated_Duration: Duration in Product Related Page
-BounceRates: Bounce Rates of a web page
-ExitRates: Exit rate of a web page
-PageValues: Page values of each web page
-SpecialDay: Special days like valentine etc
-Month: Month of the year
-OperatingSystems: Operating system used
-Browser: Browser used
-Region: Region of the user
-TrafficType: Traffic Type
-VisitorType: Types of Visitor
-Weekend: Weekend or not
-Revenue: Revenue will be generated or not
+- Administrative: Administrative Value
+- Administrative_Duration: Duration in Administrative Page
+- Informational: Informational Value
+- Informational_Duration: Duration in Informational Page
+- ProductRelated: Product Related Value
+- ProductRelated_Duration: Duration in Product Related Page
+- BounceRates: Bounce Rates of a web page
+- ExitRates: Exit rate of a web page
+- PageValues: Page values of each web page
+- SpecialDay: Special days like valentine etc
+- Month: Month of the year
+- OperatingSystems: Operating system used
+- Browser: Browser used
+- Region: Region of the user
+- TrafficType: Traffic Type
+- VisitorType: Types of Visitor
+- Weekend: Weekend or not
+- Revenue: Revenue will be generated or not
 
 
 ### Atribute Information:
@@ -45,8 +56,10 @@ The 'Revenue' attribute can be used as the class label.
 ### Relevant Papers:
 Sakar, C.O., Polat, S.O., Katircioglu, M. et al. Neural Comput & Applic (2018).
 
-### Original dataset (not the one in this PROJECT)
+
+
+### Original dataset (NOT the one in this project)
 https://www.kaggle.com/roshansharma/online-shoppers-intention#online_shoppers_intention.csv
-The dataset of this project has been changed for educational purposes.
+The dataset of this project was changed by Ironhack for educational purposes, to make it mode difficult to build a model.
 
 
