@@ -3,7 +3,7 @@
 ## Objective
 This project was developed in the Data Analytics bootcamp of Ironhack. 
 The goal was to build an ML model to predict if a website user would or would not make a purchase, 
-based on their website activity. A successful model would have mean score of more than 0.90 in cross validation. 
+based on their website activity. A successful model would have a mean score of more than 0.90 in cross validation. 
 
 ## Results
 The model achieved an average score of 0.98 in cross validation. 
@@ -46,7 +46,7 @@ profile, or period.
 - Revenue: Revenue will be generated or not
 
 
-### Atribute Information:
+### Attribute Information:
 
 The dataset consists of 10 numerical and 8 categorical attributes.
 
@@ -68,6 +68,6 @@ Sakar, C.O., Polat, S.O., Katircioglu, M. et al. Neural Comput & Applic (2018).
 
 ### Original dataset (NOT the one in this project)
 https://www.kaggle.com/roshansharma/online-shoppers-intention#online_shoppers_intention.csv
-The dataset of this project was changed by Ironhack for educational purposes, to make it mode difficult to build a model.
+The dataset of this project was changed by Ironhack for educational purposes, to make it more difficult to build a successful model.
 
 
